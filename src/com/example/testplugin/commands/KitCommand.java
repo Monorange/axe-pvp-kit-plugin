@@ -27,7 +27,7 @@ public class KitCommand implements CommandExecutor {
 
         Player player = (Player) commandSender;
 
-        ItemStack axe = new ItemStack(Material.IRON_AXE);
+        ItemStack axe = new ItemStack(Material.DIAMOND_AXE);
         ItemMeta axeItemMeta = axe.getItemMeta();
         axeItemMeta.setUnbreakable(true);
         axe.setItemMeta(axeItemMeta);
@@ -44,22 +44,22 @@ public class KitCommand implements CommandExecutor {
 
         player.getInventory().addItem(new ItemStack(Material.ARROW));
 
-        ItemStack helmet = new ItemStack(Material.IRON_HELMET);
+        ItemStack helmet = new ItemStack(Material.DIAMOND_HELMET);
         ItemMeta helmetItemMeta = helmet.getItemMeta();
         helmetItemMeta.setUnbreakable(true);
         helmet.setItemMeta(helmetItemMeta);
 
-        ItemStack chestplate = new ItemStack(Material.IRON_CHESTPLATE);
+        ItemStack chestplate = new ItemStack(Material.DIAMOND_CHESTPLATE);
         ItemMeta chestplateItemMeta = chestplate.getItemMeta();
         chestplateItemMeta.setUnbreakable(true);
         chestplate.setItemMeta(chestplateItemMeta);
 
-        ItemStack leggings = new ItemStack(Material.IRON_LEGGINGS);
+        ItemStack leggings = new ItemStack(Material.DIAMOND_LEGGINGS);
         ItemMeta leggingsItemMeta = leggings.getItemMeta();
         leggingsItemMeta.setUnbreakable(true);
         leggings.setItemMeta(leggingsItemMeta);
 
-        ItemStack boots = new ItemStack(Material.IRON_BOOTS);
+        ItemStack boots = new ItemStack(Material.DIAMOND_BOOTS);
         ItemMeta bootsItemMeta = boots.getItemMeta();
         bootsItemMeta.setUnbreakable(true);
         boots.setItemMeta(bootsItemMeta);
